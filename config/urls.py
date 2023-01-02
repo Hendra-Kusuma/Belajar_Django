@@ -6,4 +6,3 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('blog.urls'))
 ]
-
