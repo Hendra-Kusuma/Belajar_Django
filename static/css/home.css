@@ -1,0 +1,127 @@
+html body {
+    background-color: #F9F9F9;
+}
+
+.fixed-position {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.search-field {
+    position: relative;
+    background-color: #F5f5F5;
+    height: 40px;
+    width: 300px;
+    padding: 6px;
+}
+
+.profile-img-nav {
+    height: 40px;
+    weidth: 40px;
+}
+
+.btn-login {
+    background-color: #5fde40;
+    padding: 6px;
+    width: 135px;
+    text-align: center;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+/*sign up button*/
+
+.btn-signup {
+    background-color: #e5e5e5;
+    padding: 6px;
+    width: 135px;
+    text-align: center;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #644f4f;
+}
+
+/* Slider */
+
+.container-slider {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    background-color: f9f9f9;
+    height: 20vh;
+    margin-right: 20px;
+    margin-top: 100px;
+
+}
+
+.horizontal-scroll {
+    width: 800px;
+    height: 125px;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row ;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.storys-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transition: 0.5s all ease-out;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.story-circle {
+    background-color: linear-gradient(rgb(231, 0, 231), rgb(255, 115, 0));
+    width: 100px;
+    height: 100px;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.story-text {
+    text-align: center;
+}
+
+.story-circle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff
+    transform: rotate(-45deg);
+}
+
+.horizontal-scroll .btn-scroll {
+
+    background-color: #fff;
+    box-shadow: 0 0 10px #999;
+    color: #999;
+    border: 0;
+    border-radius: 50%;
+    margin: 0 5px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* end slider */
+
